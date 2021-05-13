@@ -1,11 +1,11 @@
 # Shoes Clone
 
-![Mockup](https://user-images.githubusercontent.com/45874497/113017407-9af24000-91a9-11eb-8b5f-d16ae7483004.jpg)
+![Mockup](https://user-images.githubusercontent.com/45874497/118103762-7625f500-b404-11eb-9825-4bca6b19ddb3.jpg)
 
 Today we gonna build Shoes app #UI using #Flutter. That has three parts such as:
 - [Part I: Root Page With Home Page](https://bit.ly/2PnTeaZ)
-- [Part II: Coming Soon Page](https://bit.ly/3wfJ78L)
-- [Part III: Movie Detail Page](https://bit.ly/3wbKkOy)
+- [Part II: My Shopping Page](https://bit.ly/3wfJ78L)
+- [Part III: Detail Page](https://bit.ly/3wbKkOy)
 
 ## Connect with me:
 - [youtube](https://bit.ly/3u1KPIU)
