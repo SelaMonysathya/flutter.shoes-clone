@@ -133,6 +133,7 @@ class _MyShoppingPageState extends State<MyShoppingPage> {
             ),
           ),
         ),
+        SizedBox(height: 50),
       ],
     );
   }

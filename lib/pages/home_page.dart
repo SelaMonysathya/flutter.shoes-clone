@@ -93,7 +93,6 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       Container(
-                        height: 90,
                         width: 140,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(
@@ -191,7 +190,6 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       Container(
-                        height: 90,
                         width: 140,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(

@@ -61,15 +61,17 @@ class _DetailPageState extends State<DetailPage> {
               Container(
                 width: size.width,
                 child: CarouselSlider(
-                  onPageChanged: (index) {
-                    setState(() {
-                      activeIndex = index;
-                    });
-                  },
-                  aspectRatio: 16/10,
-                  viewportFraction: 1.0,
-                  autoPlayCurve: Curves.fastLinearToSlowEaseIn,
-                  autoPlayAnimationDuration: Duration(seconds: 2),
+                  options: CarouselOptions(
+                    aspectRatio: 16/10,
+                    viewportFraction: 1.0,
+                    autoPlayCurve: Curves.fastLinearToSlowEaseIn,
+                    autoPlayAnimationDuration: Duration(seconds: 2),  
+                    onPageChanged: (index, reason) {
+                      setState(() {
+                        activeIndex = index;
+                      });
+                    },
+                  ),
                   items: List.generate(images.length, (index) {
                     return Container(
                       width: size.width,
@@ -317,6 +319,7 @@ class _DetailPageState extends State<DetailPage> {
             ),
           ),
         ),
+        SizedBox(height: 50,),
       ],
     );
   }
